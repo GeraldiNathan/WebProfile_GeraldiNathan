@@ -1,3 +1,4 @@
+/* Hand Wave Animation */
 .wave {
   animation-name: wave-animation;
   animation-duration: 2.5s;
@@ -38,4 +39,48 @@
   100% {
     transform: rotate(0deg);
   }
+}
+
+/* For Project Card */
+
+.card {
+  width: 490px;
+  height: 300px;
+  margin-top: 55px;
+  perspective: 800px;
+}
+
+.container-card:hover > .card {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+
+.card {
+  position: relative;
+  transition: transform 1500ms; /* Untuk flip card*/
+  transform-style: preserve-3d;
+}
+
+.front,
+.back {
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0 0 5px 2px black;
+  position: absolute;
+  backface-visibility: hidden;
+}
+
+.front {
+  background-image: url(assets/img/Calculator.png);
+}
+
+.back {
+  background-color: #ffff;
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
 }

@@ -53,125 +53,124 @@
 
     <!-- Ini yang buat bisa jadi 2 container box jadi sejajar Line 53-->
     <div class="d-flex flex-row">
-      <div class="container container-fluid">
-        <!-- Box Profile -->
+      <!-- Box Profile -->
+      <div
+        class="box border border-dark"
+        style="
+          width: 295px;
+          height: 500px;
+          border-radius: 60px;
+          padding: 10px;
+          margin-top: 50px;
+          margin-bottom: 200px;
+          margin-left: 100px;
+        "
+      >
+        <img
+          class="rounded-circle mx-auto d-block border border-dark"
+          src="./assets/img/GeraldiNathan.jpg"
+          alt="avatar"
+          style="width: 100px"
+        />
+        <div class="name text-center mt-3">
+          Geraldi Nathan
+          <hr />
+        </div>
+        <!-- Side Nav -->
         <div
-          class="box border border-dark"
-          style="
-            width: 295px;
-            height: 500px;
-            border-radius: 60px;
-            padding: 10px;
-            margin-top: 50px;
-            margin-bottom: 200px;
-          "
+          class="nav flex-column nav-pills justify-content-end"
+          id="v-pills-tab"
+          role="tablist"
+          aria-orientation="vertical"
         >
-          <img
-            class="rounded-circle mx-auto d-block border border-dark"
-            src="./assets/img/GeraldiNathan.jpg"
-            alt="avatar"
-            style="width: 100px"
-          />
-          <div class="name text-center mt-3">
-            Geraldi Nathan
-            <hr />
-          </div>
-          <!-- Side Nav -->
-          <div
-            class="nav flex-column nav-pills justify-content-end"
-            id="v-pills-tab"
-            role="tablist"
-            aria-orientation="vertical"
+          <a
+            href="#home"
+            class="nav-link text-dark"
+            id="v-pills-home-tab"
+            data-toggle="pill"
+            role="tab"
+            aria-controls="v-pills-home"
+            aria-selected="true"
+            ><img
+              src="./assets/img/home.png"
+              alt=""
+              style="margin-right: 10px; width: 24px"
+            />Home</a
           >
-            <a
-              href="#home"
-              class="nav-link text-dark"
-              id="v-pills-home-tab"
-              data-toggle="pill"
-              role="tab"
-              aria-controls="v-pills-home"
-              aria-selected="true"
-              ><img
-                src="./assets/img/home.png"
-                alt=""
-                style="margin-right: 10px; width: 24px"
-              />Home</a
-            >
-            <a
-              href="#about"
-              class="nav-link text-dark"
-              id="v-pills-home-tab"
-              data-toggle="pill"
-              role="tab"
-              aria-controls="v-pills-home"
-              aria-selected="true"
-              ><img
-                src="./assets/img/about.png"
-                alt=""
-                style="margin-right: 10px; width: 24px"
-              />
-              About</a
-            >
-            <a
-              href="#project"
-              class="nav-link text-dark"
-              id="v-pills-home-tab"
-              data-toggle="pill"
-              role="tab"
-              aria-controls="v-pills-home"
-              aria-selected="true"
-              ><img
-                src="./assets/img/project.png"
-                alt=""
-                style="margin-right: 10px; width: 24px"
-              />
-              Project</a
-            >
-            <a
-              href="#contact"
-              class="nav-link text-dark"
-              id="v-pills-home-tab"
-              data-toggle="pill"
-              role="tab"
-              aria-controls="v-pills-home"
-              aria-selected="true"
-            >
-              <img
-                src="./assets/img/contact.png"
-                alt=""
-                style="margin-right: 10px; width: 24px"
-              />Contact</a
-            >
-            <a
-              href="#resume"
-              class="nav-link text-dark"
-              id="v-pills-home-tab"
-              data-toggle="pill"
-              role="tab"
-              aria-controls="v-pills-home"
-              aria-selected="true"
-              ><img
-                src="./assets/img/cv.png"
-                alt=""
-                style="margin-right: 10px; width: 24px"
-              />
-              Resume</a
-            >
-          </div>
-          <div class="footer text-center">
-            <hr />
-            &copy; 2023, Geraldi Nathan
-          </div>
+          <a
+            href="#about"
+            class="nav-link text-dark"
+            id="v-pills-home-tab"
+            data-toggle="pill"
+            role="tab"
+            aria-controls="v-pills-home"
+            aria-selected="true"
+            ><img
+              src="./assets/img/about.png"
+              alt=""
+              style="margin-right: 10px; width: 24px"
+            />
+            About</a
+          >
+          <a
+            href="#project"
+            class="nav-link text-dark"
+            id="v-pills-home-tab"
+            data-toggle="pill"
+            role="tab"
+            aria-controls="v-pills-home"
+            aria-selected="true"
+            ><img
+              src="./assets/img/project.png"
+              alt=""
+              style="margin-right: 10px; width: 24px"
+            />
+            Project</a
+          >
+          <a
+            href="#contact"
+            class="nav-link text-dark"
+            id="v-pills-home-tab"
+            data-toggle="pill"
+            role="tab"
+            aria-controls="v-pills-home"
+            aria-selected="true"
+          >
+            <img
+              src="./assets/img/contact.png"
+              alt=""
+              style="margin-right: 10px; width: 24px"
+            />Contact</a
+          >
+          <a
+            href="#resume"
+            class="nav-link text-dark"
+            id="v-pills-home-tab"
+            data-toggle="pill"
+            role="tab"
+            aria-controls="v-pills-home"
+            aria-selected="true"
+            ><img
+              src="./assets/img/cv.png"
+              alt=""
+              style="margin-right: 10px; width: 24px"
+            />
+            Resume</a
+          >
+        </div>
+        <div class="footer text-center">
+          <hr />
+          &copy; 2023, Geraldi Nathan
         </div>
       </div>
 
       <div class="container">
         <div
-          class="box border border-dark"
+          class="box border-dark"
           style="
             width: 70rem;
-            margin-right: 20px;
-            height: 500px;
+            height: 1000px;
+            margin-bottom: 300px;
             margin-top: 50px;
           "
         >
@@ -192,7 +191,45 @@
             <hr />
           </section>
 
-          <section class="mid-content"></section>
+          <section class="mid-content">
+            <div class="project-title">
+              <p
+                style="
+                  font-size: large;
+                  font-weight: normal;
+                  margin-bottom: 10px;
+                  margin-left: 10px;
+                "
+              >
+                <img
+                  src="./assets/img/project.png"
+                  alt=""
+                  style="width: 20px"
+                />
+                Latest Project
+              </p>
+            </div>
+            <!-- Porject Card -->
+            <div
+              class="container-card container-fluid d-flex justify-content-center"
+            >
+              <div class="card">
+                <div class="front"></div>
+                <div class="back">
+                  <h1 style="color: black">Simple Calculator</h1>
+                  <p style="color: black">
+                    Simple Calculator for my task in collage Pemrograman Web
+                    Mobile. The stack used by HTML, CSS and JS
+                  </p>
+                  <img
+                    src="./assets/img/contact.png"
+                    alt="https://github.com/GeraldiNathan/Calculator_JS"
+                    style="padding-bottom: 100px"
+                  />
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </div>
     </div>
