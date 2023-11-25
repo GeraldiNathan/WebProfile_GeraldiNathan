@@ -84,3 +84,66 @@
   align-items: center;
   gap: 5rem;
 }
+
+/* Scroll Text Animation */
+.scroll-container {
+  overflow: hidden;
+}
+
+.scroll-text {
+  text-align: left;
+
+  -moz-transform: translateX(-100%);
+  -webkit-transform: translateX(-100%);
+  transform: translateX(-100%);
+
+  -moz-animation: my-animation 15s linear infinite;
+  -webkit-animation: my-animation 15s linear infinite;
+  animation: my-animation 15s linear infinite;
+}
+
+/* for Firefox */
+@-moz-keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+  }
+}
+
+/* for Chrome */
+@-webkit-keyframes my-animation {
+  from {
+    -webkit-transform: translateX(-100%);
+  }
+  to {
+    -webkit-transform: translateX(100%);
+  }
+}
+
+@keyframes my-animation {
+  from {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+  to {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+}
+
+/* Style For Coding Skills */
+.box-skills {
+  height: 50px;
+  border-radius: 50px;
+  width: 200px;
+  margin-bottom: 50px;
+  margin-left: 30px;
+}
+
+h5{
+  margin-top: 10px;
+}
