@@ -42,7 +42,6 @@
 }
 
 /* For Project Card */
-
 .card {
   width: 490px;
   height: 300px;
@@ -146,4 +145,54 @@
 
 h5 {
   margin-top: 10px;
+}
+
+/* For Top Content */
+/* Style For Box Greeting */
+.box-greeting {
+  width: 70rem;
+  height: 40rem;
+  margin-bottom: 200px;
+  margin-top: 50px;
+}
+
+/* For Mid Content */
+/* Style for Career Title */
+.career-title h2 {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.career-title img {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Timeline Content */
+.experience ul {
+  margin-left: 25px;
+}
+
+/* Style For SideNav */
+/* Box Profile */
+.box-profile {
+  width: 295px;
+  height: 500px;
+  border-radius: 60px;
+  padding: 10px;
+  margin-top: 50px;
+  margin-bottom: 200px;
+  margin-left: 100px;
+}
+
+.box-profile img {
+  width: 100px;
+}
+
+/* Box SideNav */
+
+.nav img {
+  margin-right: 10px;
+  width: 30px;
 }
