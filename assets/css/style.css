@@ -149,7 +149,8 @@ h5 {
 
 /* For Top Content */
 /* Style For Box Greeting */
-.box-greeting {
+.box-greeting,
+.box-about {
   width: 70rem;
   height: 40rem;
   margin-bottom: 200px;
