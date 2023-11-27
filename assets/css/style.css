@@ -197,3 +197,19 @@ h5 {
   margin-right: 10px;
   width: 30px;
 }
+
+/* Contact Us Style */
+.contact-box {
+  border-radius: 10px;
+  width: 200px;
+  height: 45px;
+  margin-top: 25px;
+}
+
+.linkedin {
+  background-color: rgba(54, 98, 241, 1);
+}
+
+.instagram {
+  background-color: rgba(201, 59, 118, 1);
+}
