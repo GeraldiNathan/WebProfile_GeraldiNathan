@@ -213,3 +213,16 @@ h5 {
 .instagram {
   background-color: rgba(201, 59, 118, 1);
 }
+
+/* Home.html */
+/* Bottom Content */
+.bottom-content h2 {
+  margin-bottom: 10px;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.bottom-content img {
+  width: 30px;
+  margin-right: 10px;
+}
