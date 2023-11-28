@@ -110,14 +110,14 @@
             <span>Find me on</span>
             <div class="d-flex flex-row gap-4">
               <div
-                class="contact-box border border-black d-flex justify-content-center p-2 text-bg-dark"
+                class="contact-box border border-black d-flex justify-content-center p-2 text-bg-danger"
               >
-                <!-- <img src="" alt="" /> -->
+                <img src="./assets/img/github.svg" alt="" />
                 <a
                   href="https://github.com/geraldinathan"
                   target="blank"
                   rel="noopener noreferrer"
-                  class="link-underline link-underline-opacity-0 text-bg-dark"
+                  class="link-underline link-underline-opacity-0 text-black"
                   >Github
                 </a>
               </div>
@@ -161,7 +161,46 @@
             <hr />
 
             <!-- Form Asking -->
-            <div class="ask"></div>
+            <form action="">
+              <div class="d-flex flex-column gap-4">
+                <span>Or send me message</span>
+                <div class="d-flex flex-row gap-5">
+                  <div class="email">
+                    <input
+                      type="email"
+                      class="input-email form-control"
+                      placeholder="Email"
+                    />
+                  </div>
+
+                  <div class="name">
+                    <input
+                      type="text"
+                      class="input-name form-control"
+                      placeholder="Name"
+                    />
+                  </div>
+                </div>
+
+                <div class="question d-flex flex-column gap-3">
+                  <input
+                    type="text"
+                    name=""
+                    id=""
+                    placeholder="Message"
+                    class="form-control"
+                    style="width: 500px"
+                  />
+
+                  <button
+                    class="btn btn-dark text-white"
+                    style="width: min-content"
+                  >
+                    Send
+                  </button>
+                </div>
+              </div>
+            </form>
           </section>
         </div>
       </div>
