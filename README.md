@@ -9,3 +9,11 @@
 2. CSS 3
 3. Bootstrap
 4. Javascript
+
+# Next Features
+
+Next features will be avilable in update v2 with different stack
+
+1. Fix project card img and description with tech stack icon
+2. download CV if user click resume navigation
+3. js script sending message from user to my email
